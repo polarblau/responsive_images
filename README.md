@@ -21,7 +21,7 @@ according to the following pattern:
 // loads foo.jpg for screen width of 320 and up
 data-320="path/to/images/foo.jpg"
 
-// loads bar.jpg for screen width of 320 and up
+// loads bar.jpg for screen width of 480 and up
 data-480="path/to/images/bar.jpg"
 
 ...
