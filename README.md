@@ -6,6 +6,11 @@ there do a lot more, name break points, check bandwidth etc. **This
 plugin loads different images depending on the viewport size. That's
 it.**
 
+This approach is not new and has been implemented many times in 
+different forms, most prominently by the [Filament Group](https://github.com/filamentgroup/Responsive-Images)
+([background](http://filamentgroup.com/lab/responsive_images_experimenting_with_context_aware_image_sizing/)).
+For an overview of the current situation regarding responsive design & images check [this article on ALA](http://www.alistapart.com/articles/responsive-images-how-they-almost-worked-and-what-we-need/).
+
 ### Usage
 
 Include jQuery and a jQuery debounce plugin (e.g. [diaspora/jquery-debounce](https://github.com/diaspora/jquery-debounce)), then call this in a DOM-ready handler
