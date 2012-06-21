@@ -8,7 +8,7 @@ it.**
 
 ### Usage
 
-Include jQuery and a jQuery debounce plugin (e.g. [diaspora/jquery-debounce](https://github.com/diaspora/jquery-debounce), then call this in a DOM-ready handler
+Include jQuery and a jQuery debounce plugin (e.g. [diaspora/jquery-debounce](https://github.com/diaspora/jquery-debounce)), then call this in a DOM-ready handler
 
 ```javascript
 $('img.resposive').responsiveImages();
