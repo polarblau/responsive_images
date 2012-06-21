@@ -8,7 +8,7 @@ it.**
 
 ### Usage
 
-Include jQuery, then call this in a DOM-ready handler
+Include jQuery and a jQuery debounce plugin (e.g. [diaspora/jquery-debounce](https://github.com/diaspora/jquery-debounce), then call this in a DOM-ready handler
 
 ```javascript
 $('img.resposive').responsiveImages();
@@ -17,7 +17,7 @@ $('img.resposive').responsiveImages();
 The plugin expects you define alternative versions through data attributes
 according to the following pattern:
 
-```
+```javascript
 // loads foo.jpg for screen width of 320 and up
 data-320="path/to/images/foo.jpg"
 
@@ -25,7 +25,6 @@ data-320="path/to/images/foo.jpg"
 data-480="path/to/images/bar.jpg"
 
 ...
-
 ```
 
 Example:
