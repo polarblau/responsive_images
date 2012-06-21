@@ -8,7 +8,7 @@
 
     var $window = $(window);
 
-    this.each(function(){
+    return this.each(function(){
       var $this = $(this),
           sizes = [];
 
@@ -39,7 +39,7 @@
       $window.on('resize', $.debounce(onResize, 10)).trigger('resize');
 
     });
-
+    
   };
 
 })(jQuery);
